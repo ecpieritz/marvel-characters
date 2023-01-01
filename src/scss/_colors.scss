@@ -1,0 +1,36 @@
+@import './variables';
+
+.mv-colors{
+  &__text{
+    &__white{
+      color: $mv-white;
+    }
+    &__gray{
+      color: $mv-gray;
+    }
+    &__dark-gray{
+      color: $mv-dark-gray;
+    }
+    &__black{
+      color: $mv-black;
+    }
+    &__red{
+      color: $mv-red;
+    }
+  }
+  
+  &__bg{
+    &__white{
+      background-color: $mv-white;
+    }
+    &__dark-gray{
+      background-color: $mv-dark-gray;
+    }
+    &__black{
+      background-color: $mv-black;
+    }
+    &__red{
+      background-color: $mv-red;
+    }
+  }
+}
