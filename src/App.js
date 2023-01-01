@@ -1,5 +1,6 @@
 import React from 'react'
 import { Banner } from './components/Banner'
+import Carousel from './components/Carousel'
 import Navbar from './components/Navbar'
 
 const App = () => {
@@ -7,6 +8,7 @@ const App = () => {
     <>
       <Navbar />
       <Banner />
+      <Carousel />
     </>
   )
 }
