@@ -1,0 +1,50 @@
+@import './variables';
+
+.mv-navbar{
+  justify-content: space-between !important;
+  .navbar-brand {
+    padding: 10px 0;
+    img{
+      height: 62px;
+    }
+  }
+
+  .navbar-toggler{
+    outline: none;
+  }
+
+  .navbar-collapse{
+    .navbar-nav{
+      .nav-item{
+        .nav-link{
+          color: $mv-white;
+          font-weight: 700;
+          font-size: 14px;
+
+          &:hover{
+            color: $mv-red;
+          }
+        }
+
+        &.active{
+          .nav-link{
+            color: $mv-red;
+
+            &:hover{
+              color: $mv-gray;
+            }
+          }
+        }
+      }
+
+      @media (min-width: 781px){
+        width:40%;
+        position: absolute;
+        right: 0;
+        display: flex;
+        justify-content: right;
+        margin-right: 19px;
+      }
+    }
+  }
+}
