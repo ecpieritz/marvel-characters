@@ -1,5 +1,6 @@
 import React from 'react'
 import { Banner } from './components/Banner'
+import CardList from './components/CardList'
 import Carousel from './components/Carousel'
 import Navbar from './components/Navbar'
 
@@ -9,6 +10,7 @@ const App = () => {
       <Navbar />
       <Banner />
       <Carousel />
+      <CardList />
     </>
   )
 }
