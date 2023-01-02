@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/marvel-characters/static/css/main.cf7dac48.css",
+    "main.js": "/marvel-characters/static/js/main.09181309.js",
+    "static/media/mv-banner.jpg": "/marvel-characters/static/media/mv-banner.50437ccc5be095543be4.jpg",
+    "static/media/mv-mastercard.png": "/marvel-characters/static/media/mv-mastercard.637cdad21ef7cba40d8c.png",
+    "static/media/mv-blog.png": "/marvel-characters/static/media/mv-blog.fcb9967f16661f54e4b7.png",
+    "index.html": "/marvel-characters/index.html",
+    "main.cf7dac48.css.map": "/marvel-characters/static/css/main.cf7dac48.css.map",
+    "main.09181309.js.map": "/marvel-characters/static/js/main.09181309.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cf7dac48.css",
+    "static/js/main.09181309.js"
+  ]
+}
