@@ -19,6 +19,7 @@
 - React
 - Bootstrap
 - SASS/SCSS
+- Axios
 
 ---
 
