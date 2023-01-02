@@ -1,11 +1,12 @@
-import React, { Component } from "react";
+import React, {useEffect} from "react";
 import Slider from "react-slick";
 
 import ImgOne from '../../assets/images/mv-test-carousel.jpg'
 import ImgTwo from '../../assets/images/mv-tests-carousel.jpg'
 
-export default class Responsive extends Component {
-  render() {
+const Responsive = () => {
+  
+
     var settings = {
       dots: true,
       infinite: false,
@@ -74,5 +75,7 @@ export default class Responsive extends Component {
         </Slider>
       </div>
     );
-  }
+  
 }
+
+export default Responsive
