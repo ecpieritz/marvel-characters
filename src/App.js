@@ -4,6 +4,7 @@ import CardList from './components/CardList'
 import Carousel from './components/Carousel'
 import Mastercad from './components/Mastercard'
 import Navbar from './components/Navbar'
+import Newsletter from './components/Newsletter'
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
       <Carousel />
       <CardList />
       <Mastercad />
+      <Newsletter />
     </>
   )
 }

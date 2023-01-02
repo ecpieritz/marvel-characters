@@ -33,4 +33,17 @@
       }
     }
   }
+
+  &.btn-red-send{
+    background-color: $mv-red;
+    color: $mv-white;
+    border: 1px solid $mv-red;
+    span{
+      margin: auto 34px;
+    }
+
+    &:hover{
+      background-color: $mv-dark-red;
+    }
+  }
 }
