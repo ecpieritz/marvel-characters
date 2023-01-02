@@ -5,16 +5,20 @@ import Carousel from './components/Carousel'
 import Mastercad from './components/Mastercard'
 import Navbar from './components/Navbar'
 import Newsletter from './components/Newsletter'
+import Footer from './components/Footer'
 
 const App = () => {
   return (
     <>
       <Navbar />
       <Banner />
-      <Carousel />
-      <CardList />
-      <Mastercad />
+      <main>
+        <Carousel />
+        <CardList />
+        <Mastercad />
+      </main>
       <Newsletter />
+      <Footer />
     </>
   )
 }

@@ -33,6 +33,20 @@
       }
     }
   }
+  
+  &.btn-gray-text{
+    button{
+      color: $mv-gray;
+      background-color: transparent;
+      font-size: 14px;
+      font-weight: 700;
+      border: none;
+      
+      &:hover{
+        color: $mv-white;
+      }
+    }
+  }
 
   &.btn-red-send{
     background-color: $mv-red;
