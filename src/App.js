@@ -2,6 +2,7 @@ import React from 'react'
 import { Banner } from './components/Banner'
 import CardList from './components/CardList'
 import Carousel from './components/Carousel'
+import Mastercad from './components/Mastercard'
 import Navbar from './components/Navbar'
 
 const App = () => {
@@ -11,6 +12,7 @@ const App = () => {
       <Banner />
       <Carousel />
       <CardList />
+      <Mastercad />
     </>
   )
 }

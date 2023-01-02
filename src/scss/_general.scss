@@ -1,3 +1,36 @@
+@import './variables';
+
 .container-fluid{
   max-width: 1160px;
+}
+
+.button{
+  &.btn-red-lg{
+    margin-bottom: 20px;
+    button{
+      background-color: $mv-red;
+      border: none;
+      color: $mv-white;
+      padding: 21px 90px;
+      font-size: 14px;
+      font-weight: 700;
+      
+      &:hover{
+        background-color: $mv-dark-red;
+      }
+    }
+  }
+  
+  &.btn-red-text{
+    button{
+      color: $mv-red;
+      font-size: 14px;
+      font-weight: 700;
+      border: none;
+      
+      &:hover{
+        color: $mv-dark-red;
+      }
+    }
+  }
 }

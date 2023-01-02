@@ -1,0 +1,34 @@
+@import './variables';
+
+.mv-mastercard{
+  margin: 140px auto;
+  .container-fluid{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  h3{
+    margin: 10px auto 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    @media(max-width: 680px){
+      font-size: 18px;
+    }
+
+  }
+  h2{
+    @media(max-width: 680px){
+      font-size: 40px;
+    }
+    
+  }
+  
+  img{
+    width: 100%;
+    margin: 50px auto;
+  }
+  @media(max-width: 680px){
+    margin: 50px auto;
+  }
+}
