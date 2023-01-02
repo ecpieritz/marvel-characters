@@ -9,7 +9,8 @@
 </p>
 
 ## 📖 About
-<p>Application that shows all the characters of the Marvel Universe.</p>
+<p>Application that shows some of the characters of the Marvel Universe using React and the <a href="" target="_blank">Marvel API</a>.</p>
+
 
 ---
 
