@@ -2,7 +2,7 @@ import React from 'react'
 import miniLogo from '../../assets/images/mv-m-logo.png'
 import imgBlog from '../../assets/images/mv-blog.png'
 import { FaFacebookSquare } from "react-icons/fa";
-import { FaSpotify } from "react-icons/fa";
+import { FaTwitterSquare } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
 
@@ -49,10 +49,10 @@ const Footer = () => {
             <div className='col-md-4'>
               <h3>Siga a Marvel</h3>
               <div className='d-flex'>
-                <a href="" target="_blank" rel='noreferrer'><FaFacebookSquare size="24px" color="#9B9B9B" /></a>
-                <a href="" target="_blank" rel='noreferrer'><FaSpotify size="24px" color="#9B9B9B" /></a>
-                <a href="" target="_blank" rel='noreferrer'><FaInstagram size="24px" color="#9B9B9B" /></a>
-                <a href="" target="_blank" rel='noreferrer'><FaYoutube size="27px" color="#9B9B9B" /></a>
+                <a href="https://www.facebook.com/MarvelBR/?brand_redir=6883542487" target="_blank" rel='noreferrer'><FaFacebookSquare size="24px" color="#9B9B9B" /></a>
+                <a href="https://twitter.com/marvel" target="_blank" rel='noreferrer'><FaTwitterSquare size="24px" color="#9B9B9B" /></a>
+                <a href="https://www.instagram.com/marvel/" target="_blank" rel='noreferrer'><FaInstagram size="24px" color="#9B9B9B" /></a>
+                <a href="https://www.youtube.com/marvel" target="_blank" rel='noreferrer'><FaYoutube size="27px" color="#9B9B9B" /></a>
               </div>
             </div>
 

@@ -5,7 +5,7 @@ import Card from '../Card'
 const CardList = () => {
   const marvelApi = 'http://gateway.marvel.com/v1/public/comics?ts=1&apikey=a6bdc001c25f333a673aaf8136daf65a&hash=a3a5e8eacc201e35fbfd73b000c68d55&limit=36'
 
-  const [url, setUrl] = useState(marvelApi)
+  const [url] = useState(marvelApi)
   const [item, setItem] = useState()
 
   useEffect(() => {
